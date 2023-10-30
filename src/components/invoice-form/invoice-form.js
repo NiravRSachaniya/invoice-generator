@@ -239,7 +239,8 @@ const InvoiceForm = () => {
     const asPdf = pdf([]); // {} is important, throws without an argument
     asPdf.updateContainer(doc);
     const blob = await asPdf.toBlob();
-    saveAs(blob, "document.pdf");
+    // saveAs(blob, "document.pdf");
+    saveAs(blob, `${toCompanyName}.pdf`);
     setInvoice({
       invoiceName: "Invoice",
       fromCompanyName: "Krishna Handloom",
