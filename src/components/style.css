@@ -1,6 +1,6 @@
 .khLogo img{
     width: 100%;
-    height: 60vh;
+    height: 50vh;
 }
 
 .khLogo{
@@ -10,6 +10,11 @@
     height: 100%;
     margin-top: 1rem;
 }
+
+.khLogo:hover{
+    cursor: default !important;
+}
+
 
 .gXgMna{
     border: none !important;

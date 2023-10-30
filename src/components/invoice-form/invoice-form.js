@@ -244,7 +244,7 @@ const InvoiceForm = () => {
       invoiceName: "Invoice",
       fromCompanyName: "Krishna Handloom",
       toCompanyName: "customer name",
-      companyLogo: "",
+      companyLogo: krishnaHandloom,
       companyAdd: "Shop No.2, Nr. Nandnavan socity, singnpore-causeway road, katargam, surat, 395004",
       toAdd: "customer address",
       invoiceDate: new Date(),
@@ -268,18 +268,18 @@ const InvoiceForm = () => {
         { item: "", qty: "", rate: "", amount: "" },
       ],
     });
-    setImageName("Company Logo Upload");
+    setImageName("");
   };
 
   const cancelAllChanges = (e) => {
     e.preventDefault();
     setInvoice({
       invoiceName: "Invoice",
-      fromCompanyName: "Abc company Pvt Ltd",
-      toCompanyName: "xyz company Pvt Ltd",
+      fromCompanyName: "krishna handloom",
+      toCompanyName: "customer name",
       companyLogo: "",
-      companyAdd: "304, krishn Twonship, dabholi road, katargam, surat, 395004",
-      toAdd: "304, krishn Twonship, dabholi road, katargam, surat, 395004",
+      companyAdd: "Shop No.2, Nr. Nandnavan socity, singnpore-causeway road, katargam, surat, 395004",
+      toAdd: "Customer Address",
       invoiceDate: new Date(),
       dueDate: new Date(),
       poNumber: "",
@@ -316,8 +316,8 @@ const InvoiceForm = () => {
     pdfWindow.print();
     setInvoice({
       invoiceName: "Invoice",
-      fromCompanyName: "Abc company Pvt Ltd",
-      toCompanyName: "xyz company Pvt Ltd",
+      fromCompanyName: "Krishna handloom",
+      toCompanyName: "customer name",
       companyLogo: "",
       companyAdd: "304, krishn Twonship, dabholi road, katargam, surat, 395004",
       toAdd: "304, krishn Twonship, dabholi road, katargam, surat, 395004",
@@ -390,14 +390,14 @@ const InvoiceForm = () => {
                     )}
                     {imageName}
                   </label>
-                  <input
+                  {/* <input
                     type="file"
                     id="upload-file"
                     onChange={(e) => {
                       onChangeLogo(e);
                     }}
                     accept="image/png, image/svg, image/jpeg"
-                  />
+                  /> */}
                 </AddLogo>
               </InvoiceTopRight>
             </InvoiceFlex>
