@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/invoice-generator/static/css/main.570510c2.css",
+    "main.js": "/invoice-generator/static/js/main.3983fd3e.js",
+    "static/js/787.408dc359.chunk.js": "/invoice-generator/static/js/787.408dc359.chunk.js",
+    "static/media/KrishnaHandlum.png": "/invoice-generator/static/media/KrishnaHandlum.9f90b49abe9e5ae35d4e.png",
+    "static/media/calendar.svg": "/invoice-generator/static/media/calendar.0e8af97f335de806916aea142308b9c0.svg",
+    "index.html": "/invoice-generator/index.html",
+    "static/media/red-close.svg": "/invoice-generator/static/media/red-close.1de0deaaade1c0ce9ad29170d6c96f68.svg",
+    "main.570510c2.css.map": "/invoice-generator/static/css/main.570510c2.css.map",
+    "main.3983fd3e.js.map": "/invoice-generator/static/js/main.3983fd3e.js.map",
+    "787.408dc359.chunk.js.map": "/invoice-generator/static/js/787.408dc359.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.570510c2.css",
+    "static/js/main.3983fd3e.js"
+  ]
+}
